@@ -1,0 +1,97 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 156, 120),
+    rgb(232, 232, 98)
+  );
+}
+.search-bg {
+  background-image: linear-gradient(
+    to right,
+    rgb(250, 250, 70),
+    rgb(255, 156, 120)
+  );
+}
+.search-bt{
+  background-color:  rgb(244, 222, 214);
+}
+.banner-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.card {
+  background-color: rgb(220, 194, 151);
+  box-shadow: 4px 4px 8px gray;
+}
+.chef-details {
+  background-color: rgb(241, 240, 198);
+  border-radius: 5px;
+  /* width: 50%; */
+  margin: auto;
+}
+.det-img {
+  width: 100%;
+}
+.chef-profile {
+  margin: auto;
+}
+.Form-container {
+  /* border: 1px solid gray; */
+  background-color: rgb(248, 247, 227);
+}
+.form-img {
+  width: 100%;
+}
+.footer {
+  background-color: #333;
+  color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.footer-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.social-link {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-link:hover {
+  color: #ffeb3b;
+}
+.google {
+  background-color: rgb(148, 174, 244);
+  border-radius: 5px;
+  border: none;
+}

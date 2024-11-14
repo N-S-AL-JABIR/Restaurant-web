@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Spicy Burg</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control search-bg me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success search-bt" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner-container d-flex justify-cintent-center">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/chicken-shish-kebab-with-vegetables-ketchup-mayonnaise-top-view.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/chicken-skewers-with-slices-apples-chili-top-view.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/chicken-skewers-with-slices-apples-chili.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <h1 class="text-center p-5">What We're Craving</h1>
+
+      <section class="card-container container">
+        <div
+          class="row d-flex justify-content-center gap-sm-5 gap-md-3 gap-lg-5"
+        >
+          <div
+            class="card col-md-3 col-lg-3 col-sm-12 mb-5"
+            style="width: 18rem"
+          >
+            <img
+              src="img/Fresh beef burger isolated -4_prev_ui.png"
+              class="card-img-top img-burger"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Beef Burger</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mb-5" style="width: 18rem">
+            <img
+              src="img/baked-chicken-wings-asian-style-tomatoes-sauce-plate_prev_ui.png"
+              class="card-img-top mt-4 mb-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chicken Wings</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mb-5" style="width: 18rem">
+            <img
+              src="img/high-angle-fried-chicken-drumsticks-with-ketchup-fries_prev_ui.png"
+              class="card-img-top mt-4 mb-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fried Chicken</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mb-5" style="width: 18rem">
+            <img
+              src="img/370860292_11475286.png"
+              class="card-img-top mt-5 mb-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="row row d-flex justify-content-center gap-sm-5 gap-md-3 gap-lg-5"
+        >
+          <div class="card mb-5" style="width: 18rem">
+            <img
+              src="img/849aa5b5-d1b0-467f-9db2-af8dbe6f388e.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">French fries</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mb-5" style="width: 18rem">
+            <img
+              src="img/coffee.png"
+              class="card-img-top mt-4 mb-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coffee</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mb-5" style="width: 18rem">
+            <img
+              src="img/pita-stuffed-with-chicken-peppers_prev_ui.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body mt-n1">
+              <h5 class="card-title">Shawarma Roll</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mb-5" style="width: 18rem">
+            <img
+              src="img/pasta-salad-with-cherry-tomatoes-fresh-basil-leaves.png"
+              class="card-img-top mt-5 mb-5"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pasta</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="kitchen container">
+        <h1 class="text-center p-5 mt-5">Our Kitchen</h1>
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-12 chef-details row p-1 mb-5">
+            <div class="col-5">
+              <img class="det-img mt-2" src="img/profile/jabr.png" alt="" />
+            </div>
+            <div class="chef-profile col-7 p-2">
+              <h2 class="chef-name">Chef AL Jabir</h2>
+              <p class="specialty">Specialty: Gourmet Burgers</p>
+              <p class="signature">
+                Signature Dish: Double-Smash Angus Burger with Truffle Aioli
+              </p>
+              <p class="style">
+                Style: Juicy patties with fresh toppings and homemade sauces.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12 chef-details row p-1 mb-5">
+            <div class="chef-profile col-7 p-2">
+              <h2 class="chef-name">Chef Monirul Islam</h2>
+              <p class="specialty">Specialty: Grilled Chicken</p>
+              <p class="signature">
+                Signature Dish: Herb-Marinated Grilled Chicken with Chimichurri
+              </p>
+              <p class="style">
+                Style: Latin-inspired, marinated with herbs and spices for
+                flavor-packed.
+              </p>
+            </div>
+            <div class="col-5">
+              <img class="det-img mt-2" src="img/profile/monirul.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-lg-5 col-md-12 col-sm-12 chef-details Right row p-1 mb-5"
+          >
+            <div class="col-5">
+              <img class="det-img mt-2" src="img/profile/akram.png" alt="" />
+            </div>
+            <div class="chef-profile col-7 p-2">
+              <h2 class="chef-name">Chef Akram</h2>
+              <p class="specialty">Specialty: Fried Chicken</p>
+              <p class="signature">
+                Signature Dish: Buttermilk Fried Chicken with Honey Chili Glaze
+              </p>
+              <p class="style">
+                Style: Southern frying meets Asian-inspired sauces for extra
+                crispiness.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-5 col-md-12 col-sm-12 chef-details Right row p-1 mb-5"
+          >
+            <div class="chef-profile col-7 p-2">
+              <h2 class="chef-name">Chef Sohel</h2>
+              <p class="specialty">Specialty: Artisan Pizza</p>
+              <p class="signature">
+                Signature Dish: Wood-Fired Margherita with Buffalo Mozzarella
+              </p>
+              <p class="style">
+                Style: Authentic, thin-crust pizzas with smoky wood-fired
+                flavor.
+              </p>
+            </div>
+            <div class="col-5">
+              <img
+                class="det-img mt-2"
+                src="img/profile/sohel vai-modified (1).png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div
+            class="col-lg-5 col-md-12 col-sm-12 chef-details Right row p-1 mb-5"
+          >
+            <div class="col-5">
+              <img
+                class="det-img mt-2"
+                src="img/profile/minhaj-modified.png"
+                alt=""
+              />
+            </div>
+            <div class="chef-profile col-7 p-2">
+              <h2 class="chef-name">Chef Minhaj</h2>
+              <p class="specialty">Specialty: Naga Wings</p>
+              <p class="signature">
+                Signature Dish: Fiery Naga Wings with Mint-Yogurt Dip
+              </p>
+              <p class="style">
+                Style: Bold, spicy South Asian flavors balanced with a cooling
+                dip.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-5 col-md-12 col-sm-12 chef-details Right row p-1 mb-5"
+          >
+            <div class="chef-profile col-7 p-2">
+              <h2 class="chef-name">Chef Jihadi Tanaka</h2>
+              <p class="specialty">Specialty: – Japanese Cuisine</p>
+              <p class="signature">
+                Signature Dish: Traditional Sushi Platter with Fresh Wasabi
+              </p>
+              <p class="style">
+                Style: Classic Japanese techniques, focus on fresh and
+                minimalist presentation.
+              </p>
+            </div>
+            <div class="col-5">
+              <img class="det-img mt-2" src="img/profile/Jihadi.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Form-container container mb-5">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="row">
+          <div class="col-7 forms mb-5 ">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <label for="inputPassword5" class="form-label">Password</label>
+            <input
+              type="password"
+              id="inputPassword5"
+              class="form-control"
+              aria-describedby="passwordHelpBlock"
+            />
+            <div id="passwordHelpBlock" class="form-text">
+              Your password must be 8-20 characters long, contain letters and
+              numbers, and must not contain spaces, special characters, or
+              emoji.
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label"
+                >Default file input example</label
+              >
+              <input class="form-control" type="file" id="formFile" />
+            </div>
+          </div>
+          <div class="col-5">
+            <img class="form-img" src="img/rb_331.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2 class="footer-title">About Us</h2>
+            <p>
+                At [Restaurant Name], we serve authentic flavors with a modern twist. Our chefs bring culinary expertise from around the world to create unforgettable dining experiences.
+            </p>
+        </div>
+        <div>
+          <h2  class="footer-title mt-2">Useful Links</h2>
+          <p class="mb-0">Lorem ipsum dolor sit.</p>
+          <p class="mb-0">Lorem, ipsum dolor.</p>
+          <p class="mb-0">Lorem ipsum dolor sit.</p>
+          <p class="mb-0">Lorem, ipsum.</p>
+          <p class="mb-0">Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="footer-section contact">
+            <h2 class="footer-title">Contact Us</h2>
+            <p>Email: contact@restaurantname.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Culinary St, Food City, FC 12345</p>
+        </div>
+        
+        <div class="footer-section social">
+            <h2 class="footer-title">Follow Us</h2>
+            <a href="#" class="social-link">Facebook</a> |
+            <a href="#" class="social-link">Instagram</a> |
+            <a href="#" class="social-link">Twitter</a>
+            <div class="mt-4">
+              <h3>Download app</h3>
+              <button class="google">Google play</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 [AL Jabir]. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <!-- Script file cdn -->
+    <div>
+      <!-- <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script> -->
+
+      <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    </div>
+  </body>
+</html>
